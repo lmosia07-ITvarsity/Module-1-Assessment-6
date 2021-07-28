@@ -1,0 +1,103 @@
+.gallery img{
+    width: 100%;
+}
+
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: #83677b;
+    padding-top: 0px;
+}
+
+#menu a{
+    color:plum;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu a:hover{
+    color:rgb(128, 128, 128);
+}
+
+body{
+    background: #adadad;
+}
+form{
+    width: 400px;
+    margin: 50px auto;
+}
+
+input, textarea{
+    color: white;
+    background-color: transparent;
+    border: 2px solid #64485c;
+    box-shadow: inset 0 1px 5px plum;
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: all .3s ease;
+}
+
+form ::placeholder{
+    color: black;
+}
+
+textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+.submit{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 22px;
+    border-radius: 7px;
+    font-weight: 700;
+    border: none;
+    background-color: #64485c;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.submit :hover{
+    background-color: #64485c;
+    box-shadow: none;
+}
+
+table {
+    width: 500px;
+}
+
+table, th, td {
+    border: 1px solid ;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #b182a3;
+}
+
+tr:nth-child(odd) {
+    background-color: #83677b;
+}
+
+.container{
+    text-align: center;
+}
+
+.btn{
+    border: 1px solid #64485c;
+    background: #83677b;
+    cursor: pointer;
+}
